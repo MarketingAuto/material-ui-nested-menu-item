@@ -1,10 +1,10 @@
 import React, {useState, useRef, useImperativeHandle} from 'react'
-import {makeStyles}                                   from '@material-ui/styles';
-import Menu, {MenuProps}                              from '@material-ui/core/Menu'
-import MenuItem, {MenuItemProps}                      from '@material-ui/core/MenuItem'
-import ArrowRight                                     from '@material-ui/icons/ArrowRight'
+import {makeStyles}                                   from '@mui/styles';
+import Menu, {MenuProps}                              from '@mui/material/Menu'
+import MenuItem, {MenuItemProps}                      from '@mui/material/MenuItem'
+import ArrowRight                                     from '@mui/icons-material/ArrowRight'
 import clsx                                           from 'clsx'
-import {Theme}                                        from "@material-ui/core";
+import {Theme}                                        from "@mui/material";
 
 export interface NestedMenuItemProps extends Omit<MenuItemProps, 'button'> {
   /**

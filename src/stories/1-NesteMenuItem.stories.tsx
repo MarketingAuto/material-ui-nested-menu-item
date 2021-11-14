@@ -1,5 +1,5 @@
 import React, {useState, useRef} from 'react'
-import {Menu, MenuItem, Typography} from '@material-ui/core'
+import {Menu, MenuItem, Typography} from '@mui/material'
 
 import NestedMenuItem from '..'
 
@@ -22,7 +22,7 @@ export const NestedMenu = () => {
     })
   }
 
-  const handleItemClick = (event: React.MouseEvent) => {
+  const handleItemClick = (_event: React.MouseEvent) => {
     setMenuPosition(null)
   }
 
